@@ -1,4 +1,29 @@
+body{
+    background-color: #E73F7C;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
 .header>img{
     height: 100px;
     width: 120px;
+}
+.subcontainer{
+    display: block;
+    margin-left: 350px;
+    line-height: 35px;
+}
+.subcontainer>label{
+    font-size: 15px;
+}
+.button{
+    background-color: #0079FD;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
 }

@@ -13,51 +13,49 @@
             <img src="images/logo.png" alt="Speak Now Logo">
         </div>
         <div class="subcontainer">
-            <h3>Before going to the survey...</h3>
+            <h3 style="font-weight: 300;"> <i>Before going to the survey...</i> </h3>
             <h2>Tell us about yourself</h2>
+            <form action="">
             <label for="DOB">What is your date of birth?</label> <br>
-            <input type="date"> <br>
-            <label for="gender"> Gender:</label> <br>
-            <input type="radio">
-            <label for="female">Female</label>
-            <input type="radio">
-            <label for="male">Male</label> <br>
-            <label for="zip">Zip Code:</label> <br>
-            <input type="number" placeholder="Enter Zip Code"><br>
-            <label for="ethnics">Which of the following best describe your ethnicities?</label> <br>
-            <select name="ethnics" id="ethnics">
-                <option value="white">White</option>
-                <option value="hispanic">Hispanic/Latino</option>
-                <option value="asian">Asian</option>
-                <option value="black">Black</option>
-                <option value="indian">Indian American</option>
-            </select>
-            <br>
-            <label for="employment">Employment Status:</label> <br>
-            <input type="radio">
-            <label for="parttime">Employee part time</label>
-            <input type="radio">
-            <label for="fulltime">Employee full time</label>
-            <input type="radio">
-            <label for="self">Self employed</label>
-            <input type="radio">
-            <label for="unemployed">Unemployed</label> <br>
-            <label for="education">What is the highest lebel of education you have completed?</label> <br>
-            <select name="edu" id="edu">
-                <option value="">High School</option>
-                <option value="">Collge Graduate</option>
-                <option value="">B.A</option>
-                <option value="">Masters or above</option>
-            </select>
-            <br>
-            <label for="income">What is your annual income before taxes?</label> <br>
-            <input type="number" placeholder="Income">
-            <br>
-            <br>
-            <input type="button" value="Submit">
-
-            
-
+                <input type="date"> <br>
+                <label for="gender"> Gender:</label> <br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label> <br>
+                <label for="zip">Zip Code:</label> <br>
+                <input type="number" placeholder="Enter Zip Code"><br>
+                <label for="ethnics">Which of the following best describe your ethnicities?</label> <br>
+                <select name="ethnics" id="ethnics">
+                    <option value="white">White</option>
+                    <option value="hispanic">Hispanic/Latino</option>
+                    <option value="asian">Asian</option>
+                    <option value="black">Black</option>
+                    <option value="indian">Indian American</option>
+                </select>
+                <br>
+                <label for="employment">Employment Status:</label> <br>
+                <input type="radio" id="employment" name="status" value="Employee part time">
+                <label for="parttime">Employee part time</label>
+                <input type="radio" id="employment" name="status" value="Employee full time">
+                <label for="fulltime">Employee full time</label>
+                <input type="radio" id="employment" name="status" value="Self employed">
+                <label for="self">Self employed</label>
+                <input type="radio" id="employment" name="status" value="Unemployed">
+                <label for="unemployed">Unemployed</label> <br>
+                <label for="education">What is the highest lebel of education you have completed?</label> <br>
+                <select name="edu" id="edu">
+                    <option value="">High School</option>
+                    <option value="">Collge Graduate</option>
+                    <option value="">B.A</option>
+                    <option value="">Masters or above</option>
+                </select>
+                <br>
+                <label for="income">What is your annual income before taxes?</label> <br>
+                <input type="number" min="50000" max="300000" placeholder="Income">
+                <br>
+                <input class="button" type="button" value="Submit">
+            </form>
         </div>
     </div>
 </body>
